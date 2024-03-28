@@ -1,0 +1,72 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "3j_gb_pamii_2024_mymovies",
+    "dateExported": "2024-03-28T22:25:26.674Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "58285c63-f443-4182-8188-adb34baac2a7",
+            "colId": "30057d71-105f-40de-a944-aeaab66b32f4",
+            "containerId": "",
+            "name": "Buscar Filmes",
+            "url": "https://api.themoviedb.org/3/discover/movie?language=pt-BR&adult=false&with_genres=35",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-28T22:21:32.247Z",
+            "modified": "2024-03-28T22:24:18.970Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "language",
+                    "value": "pt-BR",
+                    "isPath": false
+                },
+                {
+                    "name": "adult",
+                    "value": "false",
+                    "isPath": false
+                },
+                {
+                    "name": "with_genres",
+                    "value": "35",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNWFjMjJmN2QxYTcyOWUyM2UyOGRiZDU2MTMwYWJhNCIsInN1YiI6IjY1ZjhjZWJkNGI5YmFlMDE2MDdkODI0MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5FtteyJJVJRVuhVVr120v4zRlf_cJvJtNSENbP8Gz_s"
+            },
+            "tests": []
+        },
+        {
+            "_id": "01685263-1ac7-4127-b56e-56e8c61442c0",
+            "colId": "30057d71-105f-40de-a944-aeaab66b32f4",
+            "containerId": "",
+            "name": "Buscar generos",
+            "url": "https://api.themoviedb.org/3/genre/movie/list?language=pt-BR&genre_ids=16",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-28T22:23:41.880Z",
+            "modified": "2024-03-28T22:24:06.805Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "language",
+                    "value": "pt-BR",
+                    "isPath": false
+                },
+                {
+                    "name": "genre_ids",
+                    "value": "16",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNWFjMjJmN2QxYTcyOWUyM2UyOGRiZDU2MTMwYWJhNCIsInN1YiI6IjY1ZjhjZWJkNGI5YmFlMDE2MDdkODI0MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5FtteyJJVJRVuhVVr120v4zRlf_cJvJtNSENbP8Gz_s"
+            },
+            "tests": []
+        }
+    ]
+}
