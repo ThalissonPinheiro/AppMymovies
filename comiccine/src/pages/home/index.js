@@ -1,9 +1,9 @@
 import React from "react";
+import MvLists from "../../components/mvLists";
 
-const Home = ({ navigation }) => {
+const Home = () => {
     return (
-        <>
-        </>
+        <MvLists/>
     );
 
 };
