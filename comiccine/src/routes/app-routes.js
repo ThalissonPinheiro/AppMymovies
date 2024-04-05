@@ -9,17 +9,18 @@ const Stack = createNativeStackNavigator();
 const AppRouter = () => {
     return (
         <NavigationContainer >
-            <Stack.Navigator>
+            <Stack.Navigator
+                initialRouteName='Home'>
                 <Stack.Screen
                     name="Home"
                     component={Home}
-                    options={{ title: "Bem Vindo a ComicCine" }}
+                    options={{ headerShown: false }}
                 />
 
                 <Stack.Screen
                     name="Details"
                     component={Details}
-                    options={{ title: "Sobre" }}
+                    options={{ headerShown: false }}
                 />
             </Stack.Navigator>
         </NavigationContainer>

@@ -1,28 +1,27 @@
 import React from 'react';
 import styles from './styles';
-
-import { TouchableOpacity, Image, Text } from 'react-native';
+import { TouchableOpacity, Image, Text, ScrollView, } from 'react-native';
 
 const mvCard = (props) => {
-    const { movie } = props;
+    const { movie, onPress } = props;
 
     return (
-        <TouchableOpacity>
+        <ScrollView
+        >
+            <TouchableOpacity onPress={onPress}>
 
-            <Text style={styles.txt}>
-                {movie.title}
-            </Text>
-            <Image
-                style={styles.teste}
-                source={{
-                    uri: movie.poster_path,
-                }}
-            />
-            <Text style={styles.txt}>
-                {movie.release_date}
-            </Text>
+                <Text style={styles.txt}>
+                    {movie.title}
+                </Text>
+                <Image
+                    style={styles.teste}
+                    source={{
+                        uri: movie.poster_path,
+                    }}
+                />
+            </TouchableOpacity>
+        </ScrollView>
 
-        </TouchableOpacity>
     );
 }
 
