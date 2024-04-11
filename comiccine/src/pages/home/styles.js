@@ -12,6 +12,7 @@ const styles = StyleSheet.create({
         paddingBottom: 5,
         marginTop: 5,
         marginLeft: 5,
+        color: '#D8315B',
     },
 })
 
