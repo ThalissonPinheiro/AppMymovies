@@ -1,6 +1,16 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
+    data: {
+        alignSelf: 'center',
+        zIndex: 2,
+        textAlign: 'center',
+        paddingTop: 50,
+        fontSize: 20,
+        fontFamily: 'arial black',
+        color: '#D8315B',
+        position: 'absolute',
+    },
 star: {
     top: '21%',
     left: '75%',
@@ -64,6 +74,22 @@ sub: {
     textAlign: 'justify',
     padding: 10,
 },
+botao: {
+    marginTop: 20,
+    alignSelf: 'center',
+    borderRadius: 20,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    width: 150,
+    height: 70,
+    justifyContent: 'center',
+},
+texto: {
+    color: '#D8315B',
+    fontWeight: 'bold',
+    fontSize: 18,
+    fontFamily: 'arial black',
+    textAlign: 'center',
+}
 
 })
 
